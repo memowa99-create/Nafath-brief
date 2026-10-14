@@ -43,4 +43,10 @@ Resource: Microsoft Learn - Understand star schema and the importance for Power 
 
 ## Misconception in My Track
 
+A common misconception is that a dedicated 5G slice guarantees emergency service will never fail because it is isolated from other users. Slicing provides logical separation and service-specific configuration, but it can still rely on shared infrastructure such as radios, transport links, power or management systems. The operator must combine slicing with redundancy, capacity planning, security monitoring and tested recovery. The 3GPP presentation states: “Slicing enables the operator to deploy multiple, more or less independent end-to-end networks potentially with the same infrastructure.” This confirms that slices may share infrastructure, so slicing alone cannot guarantee uninterrupted service.
+
+Resource: 3GPP - Network Slicing – The Concept, slide 8 - https://www.3gpp.org/ftp/Information/presentations/presentations_2016/2016_11_3GPP_5G_Frank_Mademannv3.pdf
+
 ## Open Question
+
+I would next verify which 5G slice selection, quality-of-service and failover mechanisms the operator's equipment supports, and test whether responder traffic meets its latency and availability targets during a regional outage.
